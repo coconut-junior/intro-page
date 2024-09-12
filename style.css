@@ -1,26 +1,26 @@
 * {
-	margin: 0px;
-	padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 *::selection {
-	color: white;
-	background-color: #EAE8FF;
+  color: white;
+  background-color: #eae8ff;
 }
 
 body {
-	font-size: 18px;
-	overflow-x: hidden;
-	background-image: url("images/playstation-pattern.png");
+  font-size: 18px;
+  overflow-x: hidden;
+  background-image: url('images/playstation-pattern.png');
 }
 
 .wrapper {
-	width: 90%;
-	margin: auto;
+  width: 90%;
+  margin: auto;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #EAE8FF;
+  background-color: #eae8ff;
   width: 50px;
 }
 
@@ -30,112 +30,108 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-	height: 50px;
-	width: 2px;
-	background-color: #303030;
-}
-
-@font-face {
-  font-family: 'Socicon';
-  src:  url('fonts/Socicon.eot');
-  src:  url('fonts/Socicon.eot#iefix') format('embedded-opentype'),
-    url('fonts/Socicon.woff2') format('woff2'),
-    url('fonts/Socicon.ttf') format('truetype'),
-    url('fonts/Socicon.woff') format('woff'),
-    url('fonts/Socicon.svg#Socicon') format('svg');
-  font-weight: normal;
-  font-style: normal;
+  height: 50px;
+  width: 2px;
+  background-color: #303030;
 }
 
 b {
-	color: #303030;
+  color: #303030;
+}
+
+.socicon {
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .banner {
-	display: flex;
-	flex-direction: row;
-	width: auto;
+  display: flex;
+  flex-direction: row;
+  width: auto;
 }
 
 h1 {
-	width: 40%;
-	font-size: 120px;
-	font-family: 'Raleway', sans-serif;
-	text-align: left;
-	margin: 80px;
-	margin-bottom: 0px;
-	padding: 10px;
-	padding-bottom: 80px;
-	color: #29E7CD;
-	border-bottom: 3px solid #EAE8FF;
+  width: 40%;
+  font-size: 120px;
+  font-family: 'Raleway', sans-serif;
+  text-align: left;
+  margin: 80px;
+  margin-bottom: 0px;
+  padding: 10px;
+  padding-bottom: 80px;
+  color: #29e7cd;
+  border-bottom: 3px solid #eae8ff;
 }
 
 h2 {
-	color: #303030;
-	font-size: 36px;
-	font-family: 'Raleway';
-	text-align: center;
-	height: auto;
-	padding: 20px;
-	margin: auto;
+  color: #303030;
+  font-size: 36px;
+  font-family: 'Raleway';
+  text-align: center;
+  height: auto;
+  padding: 20px;
+  margin: auto;
 }
 
 h3 {
-	font-size: 36px;
-	font-family: 'Raleway', sans-serif;
-	color: #303030;
-	margin: auto;
+  font-size: 36px;
+  font-family: 'Raleway', sans-serif;
+  color: #303030;
+  margin: auto;
 }
 
 p {
-	width: auto;
-	margin: 80px;
-	padding: 40px;
-	color: #303030;
-	border-style: solid;
-	border-width: 1px;
-	border-spacing: 8px;
-	border-color: #29E7CD;
-	border-radius: 5px;
-	font-family: 'Source Code Pro', monospace;
-	font-size: 18px;
-	background-color: #29E7CD;
+  width: auto;
+  margin: 80px;
+  padding: 40px;
+  color: #303030;
+  border-style: solid;
+  border-width: 1px;
+  border-spacing: 8px;
+  border-color: #29e7cd;
+  border-radius: 5px;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 18px;
+  background-color: #29e7cd;
 }
 
 .footer {
-	display: flex;
-	flex-direction: row;
-	align-items:center;
-	justify-content: center;
-	height: auto;
-	margin: auto;
-	margin-top: 80px;
-	margin-bottom: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 a {
-	overflow: hidden;
-	background-color: #29E7CD;
-	text-align: center;
-	border-radius: 50%;
-	color: white;
-	height: auto;
-	width: auto;
-	margin: 10px;
-	font-family: 'Socicon' !important;
-	font-size: 18px;
-	color: #303030;
-	text-decoration: none;
-	padding: 20px;
+  overflow: hidden;
+  background-color: #29e7cd;
+  text-align: center;
+  border-radius: 50%;
+  color: white;
+  height: auto;
+  width: auto;
+  margin: 10px;
+  font-family: 'Socicon' !important;
+  font-size: 18px;
+  color: #303030;
+  text-decoration: none;
+  padding: 20px;
 }
 
 a:hover {
-	background-color: #EAE8FF;
+  background-color: #eae8ff;
 }
 
 img {
-	margin: auto;
-	margin-left: 80px;
-	width: auto;
-	height: 200px;
+  margin: auto;
+  margin-left: 80px;
+  width: auto;
+  height: 200px;
 }
